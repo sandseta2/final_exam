@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:final_exam_650710432/cont/profilescreen.dart'; // นำเข้าไฟล์ ProfileCard
+//import 'package:final_exam_650710432/cont/profilescreen.dart'; // นำเข้าไฟล์ ProfileCard
+//import 'answer1.dart';
+import 'answer2.dart';
 
 // ฟังก์ชันเริ่มต้นแอป
 void main() {
@@ -14,15 +16,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Profile Card',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const ProfileScreen(),
+      home: const ShippingCalculatorScreen(),
     );
   }
 }
 
-// สร้างหน้าหลัก ProfileScreen
+/*// สร้างหน้าหลัก ProfileScreen
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
 
@@ -46,4 +45,4 @@ class ProfileScreen extends StatelessWidget {
       ),
     );
   }
-}
+}*/
